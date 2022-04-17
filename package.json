@@ -1,0 +1,26 @@
+{
+  "name": "aprendizado",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hello_server.js",
+  "scripts": {
+    "devStart": "nodemon hello_server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/g-101/node-aprendizado.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/g-101/node-aprendizado/issues"
+  },
+  "homepage": "https://github.com/g-101/node-aprendizado#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
