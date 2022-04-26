@@ -13,7 +13,11 @@ const port = 3333;
 app.get("/", (req, res) => {
     // req é a requisição recebida
     // res é a resposta enviada
-    res.send("Fsociety") //midleware envia a mensagem como resposta
+
+    // A requisição e resposta no express é transformada 
+    // em um objeto e passada como parametro
+    
+    res.send("Fsociety") // envia a mensagem como resposta e finaliza
 })
 
 
