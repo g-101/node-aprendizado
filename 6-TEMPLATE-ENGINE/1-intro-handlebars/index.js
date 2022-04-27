@@ -3,7 +3,10 @@ const exphbs = require("express-handlebars")
 
 const app = express()
 
+
 // O que é TEMPLATE ENGINE?
+// facilita criação de paginas html, deixando mais dinamica
+// podendo fazer o uso da linguagem e logica de programação
 
 
 //mapeia o template engine
